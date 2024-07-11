@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/dailog_background"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#8E0404"
+            android:textStyle="bold"
+            android:text="GEN"/>
+
+        <RadioGroup
+            android:id="@+id/rdoGrGen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- "MAN" 라디오버튼 -->
+            <RadioButton
+                android:id="@+id/btnGenM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DDCFCF"
+                android:text="MAN"/>
+
+            <!-- "WOMAN" 라디오버튼 -->
+            <RadioButton
+                android:id="@+id/btnGenW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DDCFCF"
+                android:text="WOMAN"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <!-- "AGE" 텍스트뷰와 라디오그룹 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#8E0404"
+            android:textStyle="bold"
+            android:text="AGE"/>
+
+        <RadioGroup
+            android:id="@+id/rdoGrAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- 각 연령대별 라디오버튼 -->
+            <!-- 여기에 각 연령대별 라디오버튼을 추가하십시오. -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#DDCFCF"
+                    android:id="@+id/btnAge20"
+                    android:text="20대"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#DDCFCF"
+                    android:id="@+id/btnAge30"
+                    android:text="30대"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#DDCFCF"
+                    android:id="@+id/btnAge40"
+                    android:text="40대"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#DDCFCF"
+                    android:id="@+id/btnAge50"
+                    android:text="50대"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#DDCFCF"
+                    android:id="@+id/btnAge60"
+                    android:text="60대"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#DDCFCF"
+                    android:id="@+id/btnAge70"
+                    android:text="70대 이상"/>
+
+            </LinearLayout>
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <!-- "wei" 텍스트뷰와 몸무게 입력란 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="#8E0404"
+            android:textStyle="bold"
+            android:text="Wei..Kg"/>
+
+        <EditText
+            android:id="@+id/weightEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#DDCFCF"
+            />
+
+    </LinearLayout>
+
+    <!-- "hei" 텍스트뷰와 키 입력란 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="#8E0404"
+            android:textStyle="bold"
+            android:text="Hei..Cm"/>
+
+        <EditText
+            android:id="@+id/heightEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#DDCFCF"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

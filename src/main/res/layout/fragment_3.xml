@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- BMI 계산 버튼 -->
+            <Button
+                android:id="@+id/calculateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calculate BMI"
+                android:textColor="#C13838"
+                android:layout_margin="10dp"
+                android:background="@drawable/btn_red_line"/>
+
+        </LinearLayout>
+
+        <!-- BMI 결과 텍스트뷰 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bmiResTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ProgressBar
+                android:id="@+id/bmiPgBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:layout_margin="10dp"
+                android:progressDrawable="@drawable/progress_bar" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:id="@+id/bmiResIv"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
