@@ -73,31 +73,6 @@
             android:src="@drawable/qr_check"
             android:visibility="invisible"/>
 
-<!--        <Button-->
-<!--            android:id="@+id/btnShow"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="65dp"-->
-<!--            android:layout_gravity="center"-->
-<!--            android:layout_margin="6dp"-->
-<!--            android:background="@drawable/btn_show" />-->
-
-<!--        <com.github.mikephil.charting.charts.LineChart-->
-<!--            android:id="@+id/line_chart"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:visibility="invisible"-->
-<!--            android:outlineSpotShadowColor="#C13838" />-->
-
-<!--        <Button-->
-<!--            android:id="@+id/btnShow"-->
-<!--            android:layout_width="24dp"-->
-<!--            android:layout_height="24dp"-->
-<!--            android:layout_marginBottom="6dp"-->
-<!--            android:layout_marginTop="20dp"-->
-<!--            android:visibility="invisible"-->
-<!--            android:background="@drawable/btn_up"/>-->
-
-
     </LinearLayout>
 
     <Button
